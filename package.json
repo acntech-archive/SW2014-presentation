@@ -1,0 +1,27 @@
+{
+  "name": "Software2014-Presentation",
+  "version": "0.0.0",
+  "description": "Slidedeck for Intrapeneurship Presentation @ Software 2014, Oslo",
+  "main": "dist/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AGresvig/SW2014-presentation"
+  },
+  "author": "Aksel Gresvig",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-connect": "~0.6.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-jade": "~0.9.1",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-stylus": "~0.12.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-coffee": "~0.10.0",
+    "matchdep": "~0.3.0",
+    "marked": "~0.3.1"
+  }
+}

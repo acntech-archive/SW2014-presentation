@@ -1,0 +1,18 @@
+{
+  "name": "NTNU-NodeJS-slides",
+  "version": "0.0.0",
+  "authors": [
+    "Aksel Gresvig <aksel@agresvig.com>"
+  ],
+  "description": "Slidedeck for NTNU introduction @ NTNU 10th feb 2014",
+  "main": "dist/index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
