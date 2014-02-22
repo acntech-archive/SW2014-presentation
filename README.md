@@ -10,3 +10,6 @@ Gå til [http://localhost:9000](http://localhost:9000)
 
 ## deploy
 `grunt gh-pages` vil commite alt som ligger i `dist/` til gh-pages branchen og push, forutstatt at `origin` peker på GitHub-repoet
+
+## view
+Kan sees på [acntech.github.io/SW2014-presentation](http://acntech.github.io/SW2014-presentation)
