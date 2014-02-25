@@ -74,6 +74,11 @@
 
 $bodyText = #444
 $headerText = #333
+$orange = #cb4b16
+$cyan = #2aa198
+$red = #dc322f
+$blue = #268bd2
+$magenta = #d33682
 
 body
   
@@ -90,6 +95,12 @@ body
   
         &.nocaps
           text-transform: none
+        &.allcaps
+          text-transform: uppercase
+        &.bold
+          font-weight: 600
+        &.italic
+          font-style: italic
 
     pre code
       font-size: 1.5em
@@ -111,3 +122,24 @@ body
 
       li
         list-style: none
+
+    .red
+      color: $red
+
+    .orange
+      color: $orange
+
+    .cyan
+      color: $cyan
+
+    .magenta
+      color: $magenta
+
+    .blue
+      color: $blue
+
+    .whiteglow
+      text-shadow: 0px 0px 20px #FAFAFA;
+
+    .whitebackground
+      background: rgba(255, 255, 255, 0.62);

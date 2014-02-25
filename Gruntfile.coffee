@@ -116,5 +116,10 @@ module.exports = (grunt) ->
       dist:
         files: ['dist/**', 'dist/assets/**/*.*']
     clean: ['dist']
+    'gh-pages':
+      options:
+        base: 'dist'
+      src: ['**']
 
   grunt.registerTask 'server', [ 'clean', 'copy', 'jade', 'stylus', 'coffee', 'connect:server', 'watch' ]
+  
