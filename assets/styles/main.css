@@ -1,9 +1,9 @@
 
-/* line 114 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+/* line 146 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
 
 /* line 1 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/functions/index.styl */
 
-/* line 293 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+/* line undefined : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
 /** Fonts **/
 
 /* line 21 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
@@ -76,15 +76,15 @@
   font-style: italic;
 }
 
-/* line 79 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+/* line 84 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
 
-/* line 80 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+/* line 85 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
 body .slides {
   font-family: 'PT Serif', serif !important;
   color: #444;
 }
 
-/* line 84 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+/* line 89 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
 body .slides h1,
 body .slides h2,
 body .slides h3,
@@ -98,7 +98,7 @@ body .slides h6 {
   line-height: 1em;
 }
 
-/* line 91 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+/* line 96 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
 body .slides h1.nocaps,
 body .slides h2.nocaps,
 body .slides h3.nocaps,
@@ -108,38 +108,103 @@ body .slides h6.nocaps {
   text-transform: none;
 }
 
-/* line 94 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+/* line 98 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+body .slides h1.allcaps,
+body .slides h2.allcaps,
+body .slides h3.allcaps,
+body .slides h4.allcaps,
+body .slides h5.allcaps,
+body .slides h6.allcaps {
+  text-transform: uppercase;
+}
+
+/* line 100 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+body .slides h1.bold,
+body .slides h2.bold,
+body .slides h3.bold,
+body .slides h4.bold,
+body .slides h5.bold,
+body .slides h6.bold {
+  font-weight: 600;
+}
+
+/* line 102 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+body .slides h1.italic,
+body .slides h2.italic,
+body .slides h3.italic,
+body .slides h4.italic,
+body .slides h5.italic,
+body .slides h6.italic {
+  font-style: italic;
+}
+
+/* line 105 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
 body .slides pre code {
   font-size: 1.5em;
   line-height: 1.2em;
 }
 
-/* line 98 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+/* line 109 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
 
-/* line 99 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+/* line 110 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
 body .slides .contact span {
   display: inline-block;
   margin: 10px;
 }
 
-/* line 103 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+/* line 114 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
 
-/* line 104 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+/* line 115 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
 body .slides img.noshadow {
   box-shadow: none;
 }
 
-/* line 106 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+/* line 117 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
 body .slides img.noborder {
   border: none;
 }
 
-/* line 109 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+/* line 120 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
 body .slides ul {
   margin: 1em 0;
 }
 
-/* line 112 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+/* line 123 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
 body .slides ul li {
   list-style: none;
+}
+
+/* line 126 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+body .slides .red {
+  color: #dc322f;
+}
+
+/* line 129 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+body .slides .orange {
+  color: #cb4b16;
+}
+
+/* line 132 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+body .slides .cyan {
+  color: #2aa198;
+}
+
+/* line 135 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+body .slides .magenta {
+  color: #d33682;
+}
+
+/* line 138 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+body .slides .blue {
+  color: #268bd2;
+}
+
+/* line 141 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+body .slides .whiteglow {
+  text-shadow: 0px 0px 20px #fafafa;
+}
+
+/* line 144 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+body .slides .whitebackground {
+  background: rgba(255,255,255,0.62);
 }
