@@ -79,7 +79,7 @@ $cyan = #2aa198
 $red = #dc322f
 $blue = #268bd2
 $magenta = #d33682
-
+$almostWhite = #FAFAFA
 body
   
   .slides   
@@ -123,6 +123,9 @@ body
       li
         list-style: none
 
+    .white
+      color: $almostWhite
+      
     .red
       color: $red
 
@@ -139,7 +142,7 @@ body
       color: $blue
 
     .whiteglow
-      text-shadow: 0px 0px 20px #FAFAFA;
+      text-shadow: 0px 0px 20px $almostWhite;
 
     .whitebackground
       background: rgba(255, 255, 255, 0.62);
