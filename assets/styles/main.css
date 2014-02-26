@@ -1,5 +1,5 @@
 
-/* line 146 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+/* line 156 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
 
 /* line 1 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/functions/index.styl */
 
@@ -165,46 +165,62 @@ body .slides img.noborder {
 }
 
 /* line 120 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
-body .slides ul {
-  margin: 1em 0;
-}
 
-/* line 123 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
-body .slides ul li {
-  list-style: none;
+/* line 121 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+body .slides ul li,
+body .slides ol li {
+  margin: 1em 0;
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
 /* line 126 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+body .slides .inline {
+  display: inline-block;
+  margin: 1em;
+}
+
+/* line 130 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+body .slides .top {
+  vertical-align: top;
+}
+
+/* line 133 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+body .slides .white {
+  color: #fafafa;
+}
+
+/* line 136 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
 body .slides .red {
   color: #dc322f;
 }
 
-/* line 129 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+/* line 139 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
 body .slides .orange {
   color: #cb4b16;
 }
 
-/* line 132 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+/* line 142 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
 body .slides .cyan {
   color: #2aa198;
 }
 
-/* line 135 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+/* line 145 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
 body .slides .magenta {
   color: #d33682;
 }
 
-/* line 138 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+/* line 148 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
 body .slides .blue {
   color: #268bd2;
 }
 
-/* line 141 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+/* line 151 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
 body .slides .whiteglow {
   text-shadow: 0px 0px 20px #fafafa;
 }
 
-/* line 144 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
+/* line 154 : /Users/aksel.gresvig.jr/Workspace/Presos/SW2014/assets/styles/main.styl */
 body .slides .whitebackground {
   background: rgba(255,255,255,0.62);
 }
