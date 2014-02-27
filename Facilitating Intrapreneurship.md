@@ -39,4 +39,4 @@ Moreover, this lays the groundwork for easy networking with like-minded individu
 ### Sales
 Innovation involves risk, but when doing innovative stuff in controlled environments backed by your employer, the risk is mitigated. Here we can try out whatever we want in the software paradigm, if the application doesn't ship no-one gets angry. The goal is to create something we can show off of course, but if the new framework we chose simply wasn't mature enough, so what? We still learned a ton.
 
-This gives us confidence when talking to clients. It lets us claim experience with solutions that we haven't sold before. It makes it more feasible for us to leverage the latest of todays and tomorrows technology.
+This gives us confidence when talking to clients. It lets us claim experience with solutions that we haven't sold before. It makes it more feasible for us to leverage the latest of todays and tomorrows technology, and enables our clients to stay technologially agressive and provide their customers modern products. Its a triple win.
